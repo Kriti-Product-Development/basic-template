@@ -20,11 +20,11 @@ const Introduction = () => {
             <div className="layout">
                 <main className="main-content">
                     <div className="name">
-                         <h1 className={`dynamic-text ${isVisible ? 'visible' : ''}`}>{ /* heading */ }</h1>
+                         <h1 className={`dynamic-text ${isVisible ? 'visible' : ''}`}> </h1>
                     </div>
                     <p className={`dynamic-text ${isVisible ? 'visible' : ''}`}>
                          <div className="intro">
-                         { /* subheading */ }
+                             
                          </div>
                     </p>
                 </main>
