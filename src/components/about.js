@@ -57,25 +57,25 @@ const About = () => {
             <div className="layout">
                 <main className="main-content">
                     <div className="heading">
-                        <h1 ref={textRef1} className={`dynamic-text ${isVisible1 ? 'visible' : ''}`}>{ /* heading */ }</h1>
+                        <h1 ref={textRef1} className={`dynamic-text ${isVisible1 ? 'visible' : ''}`}> </h1>
                     </div>
                     <p ref={textRef1} className={`dynamic-text ${isVisible1 ? 'visible' : ''}`}>
-                        {/* sub-heading */}
+                        
                     </p>
                     <div className="tp-h">
-                        <div ref={textRef2} className={`dynamic-text ${isVisible2 ? 'visible' : ''}`}>{ /* About heading 1 */ }</div>
+                        <div ref={textRef2} className={`dynamic-text ${isVisible2 ? 'visible' : ''}`}> </div>
                     </div>
                     <div className="tp">
                         <div ref={textRef2} className={`dynamic-text ${isVisible2 ? 'visible' : ''}`}>
-                            {/* data 1 */}
+                            
                         </div>
                     </div>
                     <div className="tp-h">
-                        <div ref={textRef3} className={`dynamic-text ${isVisible3 ? 'visible' : ''}`}>{ /* About heading 2 */ }</div>
+                        <div ref={textRef3} className={`dynamic-text ${isVisible3 ? 'visible' : ''}`}> </div>
                     </div>
                     <div className="tp">
                         <div ref={textRef3} className={`dynamic-text ${isVisible3 ? 'visible' : ''}`}>
-                        { /* data 2 */ }
+                            
                         </div>
                     </div>
 
